@@ -1,6 +1,8 @@
-migrate test page
-use everywhere
 document
 produce version based on v4. https://bl.ocks.org/maybelinot/5552606564ef37b5de7e47ed2b7dc099
+use for coicop
 
 prom
+
+handle missing values for second ring
+handle negative values
