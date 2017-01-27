@@ -6,7 +6,7 @@
 
 # Quick start
 
-An example is provided in [example_v3.html](http://jgaffuri.github.io/d3.sunburst/example_v3.html).
+An example: [example_v3.html](http://jgaffuri.github.io/d3.sunburst/example_v3.html).
 
 First, add the element where the chart should bloom:
 
@@ -58,5 +58,8 @@ See the code example here: https://github.com/jgaffuri/d3.sunburst/blob/gh-pages
 
 # Documentation
 
-It is an addon to [D3 library](https://d3js.org/).
+| Method | Returns | Description |
+| --- | --- | --- |
+| TODO | TODO | TODO |
 
+[d3.sunburst](http://jgaffuri.github.io/d3.sunburst/) is designed as an add-on of [D3 library](https://d3js.org/) inspired from the numerous existing sunburst examples such as [this one](https://bl.ocks.org/mbostock/4348373). It follows the same approach as [C3js](http://c3js.org/).
