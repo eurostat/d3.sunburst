@@ -1,6 +1,6 @@
 # d3.sunburst
 
-[d3.sunburst](https://github.com/jgaffuri/d3.sunburst/blob/gh-pages/README.md) is a library to easily create sunburst visualizations such as these ones:
+[d3.sunburst](http://jgaffuri.github.io/d3.sunburst/) is a library to easily create sunburst visualizations such as these ones:
 
 <include examples here>
 
