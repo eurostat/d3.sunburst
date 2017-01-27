@@ -17,6 +17,7 @@
 
     (function(d3) {
 
+        //build codes hierarchy
         var codesHierarchy = {code:"Total",children:[
             {code:"Part1",children:[
                 {code:"1_1"},
@@ -38,6 +39,7 @@
             {code:"Part4"}
         ]};
 
+        //first set of values
         var values1 = {
             "1_1":12.4,
             "1_2":2.4,
@@ -51,6 +53,7 @@
             "Part4":32.3
         };
 
+        //second set of values
         var values2 = {
             "1_1":1.7,
             "1_2":5.4,
@@ -64,10 +67,15 @@
             "Part4":28.9
         };
 
+        //build sunburst with first set of values
         var sb = d3.sunburst()
                 .codesHierarchy(codesHierarchy)
                 .set(values1);
-        setTimeout(function() { sb.set(values2, 2000); }, 1000);
+
+        //update with second set of values, after 1 second
+        setTimeout(function() {
+            sb.set(values2, 2000);
+        }, 1000);
 
     }(d3));
 
