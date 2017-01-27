@@ -2,9 +2,7 @@
 
 [d3.sunburst](http://jgaffuri.github.io/d3.sunburst/) is a library to easily create sunburst visualizations such as this one:
 
-![COICOP sunburst](img/coicop.png "COICOP sunburst")
-
-http://jgaffuri.github.io/EurostatVisu/coicop_sunburst.html
+[![COICOP sunburst](img/coicop.png "COICOP sunburst")](http://jgaffuri.github.io/EurostatVisu/coicop_sunburst.html)
 
 # Quick start
 
