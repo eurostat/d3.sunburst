@@ -82,4 +82,4 @@ See the code example here: https://github.com/jgaffuri/d3.sunburst/blob/gh-pages
 
 ## About
 
-[d3.sunburst](http://jgaffuri.github.io/d3.sunburst/) is designed as an add-on of [D3 library](https://d3js.org/) inspired from the numerous existing sunburst examples such as [this one](https://bl.ocks.org/mbostock/4348373). It follows the same approach as [C3js](http://c3js.org/).
+[d3.sunburst](http://jgaffuri.github.io/d3.sunburst/) is designed as an add-on of [D3 library](https://d3js.org/) inspired from the numerous existing sunburst examples such as [this one](https://bl.ocks.org/mbostock/4348373). It follows the approach presented [here](https://bost.ocks.org/mike/chart/), which also adopted in [C3js](http://c3js.org/).
