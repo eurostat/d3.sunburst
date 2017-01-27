@@ -2,6 +2,8 @@
 
 [d3.sunburst](http://jgaffuri.github.io/d3.sunburst/) is a library to easily create sunburst charts such as this one:
 
+<img src="img/coicop.png" alt="COICOP sunburst" style="width:200px;"/>
+
 [![COICOP sunburst](img/coicop.png =200x200 "COICOP sunburst")](http://jgaffuri.github.io/EurostatVisu/coicop_sunburst.html)
 
 # Quick start
