@@ -4,17 +4,22 @@
 
 [<img src="img/coicop.png" alt="COICOP sunburst" width="400" height="400" />](http://jgaffuri.github.io/EurostatVisu/coicop_sunburst.html)
 
+Sunburst charts are very much suitable to show statistical values defined on hierarchical code lists.
+
 ## Quick start
 
-An example: [example_v3.html](http://jgaffuri.github.io/d3.sunburst/example_v3.html).
+Let's start with a simple example: [example_v3.html](http://jgaffuri.github.io/d3.sunburst/example_v3.html).
 
-First, add the element where the chart should bloom:
+First, add the libraries and an HTML element where the chart should bloom:
 
 ```html
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="d3-sunburst-v3.js"></script>
+...
 <div id="sunburst"></div>
 ```
 
-The data structure is defined like that:
+The data structure is then defined like that:
 
 ```javascript
 //build codes hierarchy
@@ -76,9 +81,9 @@ See the code example here: https://github.com/jgaffuri/d3.sunburst/blob/gh-pages
 | fontSize(Function fun) | this or Function | A function 'function(depth){ ... }' returning the label font size depending on the ring depth. Usually, deaper labels need to be smaller. Default value: '12', whatever the depth. |
 | fontFill(Function fun) | this or Function | A function 'function(depth){ ... }' returning the label color depending on the code ring. Usually, deaper labels are filled with lighter colors. Default value: Dark gray "#333", whatever the depth. |
 | fontWeight(Function fun) | this or Function | A function 'function(depth){ ... }' returning the label [font weight](https://www.w3.org/wiki/CSS/Properties/font-weight) depending on the ring depth. Usually, deaper labels are filled with weaker font weights. Default value: 'bold' for the first ring, 'regular' for the others. 'function(depth){ return depth<=1?"bold":"regular";}' |
-| fontOrientation(Function fun) | this or Function | TODO |
-| labelRotationParameter(Function fun) | this or Function | TODO |
-| labelRemovalParameter(Function fun) | this or Function | TODO |
+| fontOrientation(Function fun) | this or Function | A function 'function(depth){ ... }' returning the label orientation depending on the ring depth. The values can be 'h' for horizontal or 'n' for normal (following the sector angle). Default value: 'h' for the first ring, 'n' for the others. 'function(depth){ return depth<=1?"h":"n";}' |
+| labelRotationParameter(Function fun) | this or Function | A function 'function(depth){ ... }' returning a parameter used the the label rotation depending on the ring depth. For small sectors, a 90° rotation is automatically applied to the label so that it fits to its sector - the threshold when this rotation is applied is controlled with this parameter. Default value: 1 |
+| labelRemovalParameter(Function fun) | this or Function | A function 'function(depth){ ... }' returning the label deletion parameter depending on the ring depth. When a sector is too small, no label is shown - the threshold when this occurs is controlled with this parameter. Default value: 1 |
 
 ## About
 
