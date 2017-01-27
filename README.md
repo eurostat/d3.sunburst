@@ -4,7 +4,7 @@
 
 [<img src="img/coicop.png" alt="COICOP sunburst" width="400" height="400" />](http://jgaffuri.github.io/EurostatVisu/coicop_sunburst.html)
 
-# Quick start
+## Quick start
 
 An example: [example_v3.html](http://jgaffuri.github.io/d3.sunburst/example_v3.html).
 
@@ -56,7 +56,7 @@ sb.set(newValues);
 
 See the code example here: https://github.com/jgaffuri/d3.sunburst/blob/gh-pages/example_v3.html
 
-# Documentation
+## Documentation
 
 | Method | Returns | Description |
 | --- | --- | --- |
@@ -80,5 +80,7 @@ See the code example here: https://github.com/jgaffuri/d3.sunburst/blob/gh-pages
 | fontOrientation(Function v) | this or Function | TODO |
 | labelRotationParameter(Function v) | this or Function | TODO |
 | labelRemovalParameter(Function v) | this or Function | TODO |
+
+## About
 
 [d3.sunburst](http://jgaffuri.github.io/d3.sunburst/) is designed as an add-on of [D3 library](https://d3js.org/) inspired from the numerous existing sunburst examples such as [this one](https://bl.ocks.org/mbostock/4348373). It follows the same approach as [C3js](http://c3js.org/).
