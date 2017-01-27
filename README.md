@@ -33,7 +33,7 @@ Values are then defined for some codes:
 
 ```javascript
 //first set of values
-var values1 = {
+var values = {
     "1_1":12.4, "1_2":2.4, "1_3":5.8, "1_4":9.2, "2_1_1":2.0, "2_1_2":6.0, "2_1_3":10, "2_2":5.4, "3_1":15.8, "Part4":32.3
 };
 ```
@@ -44,17 +44,17 @@ Finally, the chart is built with:
 //build sunburst with first set of values
 var sb = d3.sunburst()
     .codesHierarchy(codesHierarchy)
-    .set(values1);
+    .set(values);
 ```
 
 The chart can simply be updated with another set of values:
 
 ```javascript
-sb.set(values2);
+var valuesNew = {"1_1":1.7, ...};
+sb.set(valuesNew);
 ```
 
 See the code example here: https://github.com/jgaffuri/d3.sunburst/blob/gh-pages/example_v3.html
-
 
 # Documentation
 
