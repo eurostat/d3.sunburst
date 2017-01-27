@@ -43,7 +43,8 @@
         //build sunburst with values
         var sb = d3.sunburst()
                 .codesHierarchy(codesHierarchy)
-                .set(values);
+                .set(values)
+        ;
 
         
         
@@ -64,7 +65,9 @@
                "Part4":28.9
             };
 
+            //update chart with new values
             sb.set(valuesNew);
+
         }, 1000);
 
 </script>
