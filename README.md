@@ -60,23 +60,22 @@ See the code example here: https://github.com/jgaffuri/d3.sunburst/blob/gh-pages
 
 | Method | Returns | Description |
 | --- | --- | --- |
-| codesHierarchy(Object codeHierarchy) | this or Object | TODO |
+| codesHierarchy(Object codeHierarchy) | this or Object | Set or get the code hierarchy to be visualised. The structure follows the pattern: '{code:"RootCode",children:[{code:"firstChildCode",children:[...]}, ...]}' as described in the example above. |
 | set(Object values, Number transitionDuration) | this | Update the chart with new values. The values should be specified as a dictionnary {code1;value1, code2;value2, ...}. The transition duration is in milliseconds. It is set to 0 by default. |
-| drawLabels(Number transitionDuration) | this | TODO |
-| eraseLabels(Number transitionDuration) | this | TODO |
-| codesHierarchy(Object v) | this or Object | TODO |
-| div(String v) | this or String | TODO |
-| radius(Number v) | this or Number | TODO |
-| strokeWidth(Number v) | this or Number | TODO |
-| strokeColor(String v) | this or String | TODO |
-| codeToColor(Function v) | this or Function | TODO |
-| setmouseover(Function v) | this or Function | TODO |
-| setmouseout(Function v) | this or Function | TODO |
-| codeToLabelText(Function v) | this or Function | TODO |
-| fontFamily(Function v) | this or Function | TODO |
-| fontSize(Function v) | this or Function | TODO |
-| fontFill(Function v) | this or Function | TODO |
-| fontWeight(Function v) | this or Function | TODO |
+| drawLabels(Number transitionDuration) | this | Draw the text labels. |
+| eraseLabels(Number transitionDuration) | this | Erase the text labels. |
+| div(String v) | this or String | Set or get the id of the HTML element where to show the chart. Default value: "sunburst". |
+| radius(Number v) | this or Number | Set the radius of the chart in pixel number. Default value: 150 |
+| strokeWidth(Number v) | this or Number | The stroke width to draw the sectors outline. Default value: 1 |
+| strokeColor(String v) | this or String | The stroke color to draw the sectors outline. Default value: "white" |
+| codeToColor(Function v) | this or Function | A function 'function(code){ ... }' returning the color to fill the sectors depending on the code. Default value: 'function(code){ return "#ccc";}' |
+| setmouseover(Function v) | this or Function | A function 'function(code){ ... }' executed on mouseover a sector. By default, the sector is shaded. |
+| setmouseout(Function v) | this or Function | A function 'function(code){ ... }' executed on mouseout a sector. By default, the sector is set to its initial value. |
+| codeToLabelText(Function v) | this or Function | A function 'function(code){ ... }' returning the label text. By default, the label is the code: function(code){ return code;} |
+| fontFamily(Function v) | this or Function | A function 'function(depth){ ... }' returning the label font family depending on the ring depth. Default value: 'Myriad'. |
+| fontSize(Function v) | this or Function | A function 'function(depth){ ... }' returning the label font size depending on the ring depth. Usually, deaper labels need to be smaller. Default value: '12', whatever the depth. |
+| fontFill(Function v) | this or Function | A function 'function(depth){ ... }' returning the label color depending on the code ring. Usually, deaper labels are filled with lighter colors. Default value: Dark gray "#333", whatever the depth. |
+| fontWeight(Function v) | this or Function | A function 'function(depth){ ... }' returning the label [font weight](https://www.w3.org/wiki/CSS/Properties/font-weight) depending on the ring depth. Usually, deaper labels are filled with weaker font weights. Default value: 'bold' for the first ring, 'regular' for the others. 'function(depth){ return depth<=1?"bold":"regular";}' |
 | fontOrientation(Function v) | this or Function | TODO |
 | labelRotationParameter(Function v) | this or Function | TODO |
 | labelRemovalParameter(Function v) | this or Function | TODO |
