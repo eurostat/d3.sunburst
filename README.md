@@ -50,8 +50,8 @@ var sb = d3.sunburst()
 The chart can simply be updated with another set of values:
 
 ```javascript
-var valuesNew = {"1_1":1.7, ...};
-sb.set(valuesNew);
+var newValues = {"1_1":1.7, ...};
+sb.set(newValues);
 ```
 
 See the code example here: https://github.com/jgaffuri/d3.sunburst/blob/gh-pages/example_v3.html
