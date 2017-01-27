@@ -1,12 +1,14 @@
 # d3.sunburst
 
-[d3.sunburst](http://jgaffuri.github.io/d3.sunburst/) is a library to easily create sunburst visualizations such as these ones:
+[d3.sunburst](http://jgaffuri.github.io/d3.sunburst/) is a library to easily create sunburst visualizations such as this one:
 
-<include examples here>
+![COICOP sunburst](img/coicop.png "COICOP sunburst")
 
-# Fast start
+http://jgaffuri.github.io/EurostatVisu/coicop_sunburst.html
 
-<on simple example. based on template>
+# Quick start
+
+TODO: describe simple example. based on template
 
 
 # Documentation
