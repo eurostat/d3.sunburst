@@ -50,8 +50,9 @@
         
         //After 1 second, update with new values
         setTimeout(function() {
-            //update chart with new values, with 2 seconds transition
+            //define new values
             var valuesNew = {"1_1":1.7, "1_2":5.4, "1_3":7.8, "1_4":1.2, "2_1_1":0.4, "2_1_2":4.5, "2_1_3":14.8, "2_2":4.2, "3_1":16.8, "Part4":28.9};
+            //update chart with new values, with 2 seconds transition
             sb.set(valuesNew, 2000);
         }, 1000);
 
