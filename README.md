@@ -4,7 +4,7 @@
 
 [<img src="img/coicop.png" alt="COICOP sunburst" width="400" height="400" />](http://jgaffuri.github.io/EurostatVisu/coicop_sunburst.html)
 
-Sunburst charts are very much suitable to show statistical values defined on hierarchical code lists.
+Sunburst charts are very much suitable to show statistical values defined on hierarchical code lists such as (TODO list examples here).
 
 ## Quick start
 
