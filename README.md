@@ -4,7 +4,8 @@
 
 [<img src="img/coicop.png" alt="COICOP sunburst" width="400" height="400" />](http://jgaffuri.github.io/EurostatVisu/coicop_sunburst.html)
 
-Sunburst charts are very much suitable to show statistical values defined on hierarchical code lists such as (TODO list examples here).
+Sunburst charts are very much suitable to show statistical values defined on hierarchical code lists such as [NACE](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NACE_REV2), [COICOP](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=HICP_2000&IntPcKey=37591913&StrLayoutCode=HIERARCHIC), [COFOG](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=COFOG_99&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC), [ACL](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=TIMEUSE_08&IntPcKey=&StrLayoutCode=HIERARCHIC).
+
 
 ## Quick start
 
