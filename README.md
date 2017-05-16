@@ -4,7 +4,7 @@
 
 [<img src="img/coicop.png" alt="COICOP sunburst" width="400" height="400" />](http://jgaffuri.github.io/EurostatVisu/coicop_sunburst.html)
 
-Sunburst charts are very much suitable to show statistical values defined on hierarchical code lists such as [NACE](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NACE_REV2), [COICOP](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=HICP_2000&IntPcKey=37591913&StrLayoutCode=HIERARCHIC), [COFOG](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=COFOG_99&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC), [ACL](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=TIMEUSE_08&IntPcKey=&StrLayoutCode=HIERARCHIC).
+Sunburst charts are very much suitable to show statistics defined on hierarchical code lists such as [NACE](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NACE_REV2), [COICOP](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=HICP_2000&IntPcKey=37591913&StrLayoutCode=HIERARCHIC), [COFOG](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=COFOG_99&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC), [ACL](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=TIMEUSE_08&IntPcKey=&StrLayoutCode=HIERARCHIC).
 
 
 ## Quick start
@@ -20,7 +20,7 @@ First, add the libraries and an HTML element where the chart should bloom:
 <div id="sunburst"></div>
 ```
 
-The data structure is then defined like that:
+The codes hierarchy is then defined like that:
 
 ```javascript
 //build codes hierarchy
@@ -35,10 +35,10 @@ var codesHierarchy = {code:"Total",children:[
 ]};
 ```
 
-Values are then defined for some codes:
+Statistical values are then defined for some codes:
 
 ```javascript
-//first set of values
+//values
 var values = {
     "1_1":12.4, "1_2":2.4, "1_3":5.8, "1_4":9.2, "2_1_1":2.0, "2_1_2":6.0, "2_1_3":10, "2_2":5.4, "3_1":15.8, "Part4":32.3
 };
