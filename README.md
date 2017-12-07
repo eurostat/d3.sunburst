@@ -1,15 +1,15 @@
 # d3.sunburst
 
-[d3.sunburst](http://jgaffuri.github.io/d3.sunburst/) is a library to easily create sunburst charts such as this one:
+[d3.sunburst](http://eurostat.github.io/d3.sunburst/) is a library to easily create sunburst charts such as this one:
 
-[<img src="img/coicop.png" alt="COICOP sunburst" width="400" height="400" />](http://jgaffuri.github.io/EurostatVisu/coicop_sunburst.html)
+[<img src="img/coicop.png" alt="COICOP sunburst" width="400" height="400" />](http://eurostat.github.io/EurostatVisu/coicop_sunburst.html)
 
 Sunburst charts are very much suitable to show statistics defined on hierarchical code lists such as [NACE](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NACE_REV2), [COICOP](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=HICP_2000&IntPcKey=37591913&StrLayoutCode=HIERARCHIC), [COFOG](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=COFOG_99&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC), [ACL](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=TIMEUSE_08&IntPcKey=&StrLayoutCode=HIERARCHIC).
 
 
 ## Quick start
 
-Let's start with a simple example: [example_v3.html](http://jgaffuri.github.io/d3.sunburst/example_v3.html).
+Let's start with a simple example: [example_v3.html](http://eurostat.github.io/d3.sunburst/example_v3.html).
 
 First, add the libraries and an HTML element where the chart should bloom:
 
@@ -60,7 +60,7 @@ var newValues = {"1_1":1.7, ...};
 sb.set(newValues);
 ```
 
-See the code example here: https://github.com/jgaffuri/d3.sunburst/blob/gh-pages/example_v3.html
+See the code example here: https://github.com/eurostat/d3.sunburst/blob/gh-pages/example_v3.html
 
 ## Documentation
 
@@ -88,4 +88,4 @@ See the code example here: https://github.com/jgaffuri/d3.sunburst/blob/gh-pages
 
 ## About
 
-[d3.sunburst](http://jgaffuri.github.io/d3.sunburst/) is designed as an add-on of [D3 library](https://d3js.org/) inspired from the numerous existing sunburst examples such as [this one](https://bl.ocks.org/mbostock/4348373). It follows the approach presented [here](https://bost.ocks.org/mike/chart/), which also adopted in [C3js](http://c3js.org/).
+[d3.sunburst](http://eurostat.github.io/d3.sunburst/) is designed as an add-on of [D3 library](https://d3js.org/) inspired from the numerous existing sunburst examples such as [this one](https://bl.ocks.org/mbostock/4348373). It follows the approach presented [here](https://bost.ocks.org/mike/chart/), which also adopted in [C3js](http://c3js.org/).
