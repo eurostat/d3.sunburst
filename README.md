@@ -9,7 +9,7 @@ Sunburst charts are very much suitable to show statistics defined on hierarchica
 
 ## Quick start
 
-Let's start with a simple example: [example_v3.html](http://eurostat.github.io/d3.sunburst/example_v3.html).
+Let's start with [this simple example](https://bl.ocks.org/jgaffuri/434e5ae309deef74715a1758afa8130d).
 
 First, add the libraries and an HTML element where the chart should bloom:
 
@@ -60,7 +60,7 @@ var newValues = {"1_1":1.7, ...};
 sb.set(newValues);
 ```
 
-See the code example here: https://github.com/eurostat/d3.sunburst/blob/gh-pages/example_v3.html
+See the code example [here](https://bl.ocks.org/jgaffuri/434e5ae309deef74715a1758afa8130d).
 
 ## Documentation
 
