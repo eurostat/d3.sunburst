@@ -15,7 +15,7 @@ First, add the libraries and an HTML element where the chart should bloom:
 
 ```html
 <script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/eurostat/d3.sunburst@0.9/d3-sunburst.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/eurostat/d3.sunburst@0.9.9/d3-sunburst.js"></script>
 ...
 <div id="sunburst"></div>
 ```
