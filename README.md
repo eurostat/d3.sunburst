@@ -89,3 +89,4 @@ See the code example [here](https://bl.ocks.org/jgaffuri/434e5ae309deef74715a175
 ## About
 
 [d3.sunburst](http://eurostat.github.io/d3.sunburst/) is designed as an add-on of [D3 library](https://d3js.org/) inspired from the numerous existing sunburst examples such as [this one](https://bl.ocks.org/mbostock/4348373). It follows the approach presented [here](https://bost.ocks.org/mike/chart/), which also adopted in [C3js](http://c3js.org/).
+
