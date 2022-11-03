@@ -67,7 +67,7 @@ See the code example [here](https://bl.ocks.org/jgaffuri/434e5ae309deef74715a175
 | Method | Returns | Description |
 | --- | --- | --- |
 | codesHierarchy(Object codeHierarchy) | this or Object | Set or get the code hierarchy to be visualised. The structure follows the pattern: '{code:"RootCode",children:[{code:"firstChildCode",children:[...]}, ...]}' as described in the example above. |
-| set(Object values, Number transitionDuration) | this | Update the chart with new values. The values should be specified as a dictionnary {code1;value1, code2;value2, ...}. The transition duration is in milliseconds. It is set to 0 by default. |
+| set(Object values, Number transitionDuration) | this | Update the chart with new values. The values should be specified as a dictionary '{"code1":value1, "code2":value2, ...}' where the values are positive real numbers. The transition duration is in milliseconds. If omitted, the default is 0 (instant). |
 | drawLabels(Number transitionDuration) | this | Draw the text labels. |
 | eraseLabels(Number transitionDuration) | this | Erase the text labels. |
 | div(String divString) | this or String | Set or get the id of the HTML element where to show the chart. Default value: "sunburst". |
